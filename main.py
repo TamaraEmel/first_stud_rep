@@ -1,16 +1,12 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('value')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print("Enter the letter")
+letter = (input())
+print("Enter the number")
+number = int(input())
+if (letter == "a" or letter == "с" or letter == "e" or letter == "g") and number % 2 == 0:
+    print("White")
+elif (letter == "a" or letter == "с" or letter == "e" or letter == "g") and number % 2 != 0:
+    print("Black")
+if (letter == "b" or letter == "d" or letter == "f" or letter == "h") and number % 2 == 0:
+    print("Black")
+elif (letter == "b" or letter == "d" or letter == "f" or letter == "h") and number % 2 != 0:
+    print("White")
